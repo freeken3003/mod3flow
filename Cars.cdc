@@ -8,7 +8,7 @@ pub contract Authentication {
         pub let Fueltype: String
         pub let account: Address
 
-        // You have to pass in 4 arguments when creating this Struct.
+    
         init(_Carname: String, _Modelyear: Int, _Fueltype: String, _account: Address) {
             self.Carname = _Carname
             self.Modelyear = _Modelyear
